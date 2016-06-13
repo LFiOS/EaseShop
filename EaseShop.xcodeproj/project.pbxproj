@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBE9EC31D0E885900A8ED09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE9EC21D0E885900A8ED09 /* main.m */; };
+		ABBE9EC61D0E885900A8ED09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE9EC51D0E885900A8ED09 /* AppDelegate.m */; };
+		ABBE9EC91D0E885900A8ED09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE9EC81D0E885900A8ED09 /* ViewController.m */; };
+		ABBE9ECC1D0E885900A8ED09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBE9ECA1D0E885900A8ED09 /* Main.storyboard */; };
+		ABBE9ECE1D0E885900A8ED09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBE9ECD1D0E885900A8ED09 /* Assets.xcassets */; };
+		ABBE9ED11D0E885900A8ED09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBE9ECF1D0E885900A8ED09 /* LaunchScreen.storyboard */; };
+		ABBE9EDC1D0E885A00A8ED09 /* EaseShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE9EDB1D0E885A00A8ED09 /* EaseShopTests.m */; };
+		ABBE9EE71D0E885A00A8ED09 /* EaseShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE9EE61D0E885A00A8ED09 /* EaseShopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABBE9ED81D0E885A00A8ED09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBE9EB61D0E885900A8ED09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBE9EBD1D0E885900A8ED09;
+			remoteInfo = EaseShop;
+		};
+		ABBE9EE31D0E885A00A8ED09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBE9EB61D0E885900A8ED09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBE9EBD1D0E885900A8ED09;
+			remoteInfo = EaseShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABBE9EBE1D0E885900A8ED09 /* EaseShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBE9EC21D0E885900A8ED09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABBE9EC41D0E885900A8ED09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABBE9EC51D0E885900A8ED09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABBE9EC71D0E885900A8ED09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABBE9EC81D0E885900A8ED09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABBE9ECB1D0E885900A8ED09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABBE9ECD1D0E885900A8ED09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABBE9ED01D0E885900A8ED09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABBE9ED21D0E885900A8ED09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBE9ED71D0E885A00A8ED09 /* EaseShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBE9EDB1D0E885A00A8ED09 /* EaseShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EaseShopTests.m; sourceTree = "<group>"; };
+		ABBE9EDD1D0E885A00A8ED09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBE9EE21D0E885A00A8ED09 /* EaseShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaseShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBE9EE61D0E885A00A8ED09 /* EaseShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EaseShopUITests.m; sourceTree = "<group>"; };
+		ABBE9EE81D0E885A00A8ED09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBE9EBB1D0E885900A8ED09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE9ED41D0E885A00A8ED09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE9EDF1D0E885A00A8ED09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBE9EB51D0E885900A8ED09 = {
+			isa = PBXGroup;
+			children = (
+				ABBE9EC01D0E885900A8ED09 /* EaseShop */,
+				ABBE9EDA1D0E885A00A8ED09 /* EaseShopTests */,
+				ABBE9EE51D0E885A00A8ED09 /* EaseShopUITests */,
+				ABBE9EBF1D0E885900A8ED09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBE9EBF1D0E885900A8ED09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE9EBE1D0E885900A8ED09 /* EaseShop.app */,
+				ABBE9ED71D0E885A00A8ED09 /* EaseShopTests.xctest */,
+				ABBE9EE21D0E885A00A8ED09 /* EaseShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBE9EC01D0E885900A8ED09 /* EaseShop */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE9EC41D0E885900A8ED09 /* AppDelegate.h */,
+				ABBE9EC51D0E885900A8ED09 /* AppDelegate.m */,
+				ABBE9EC71D0E885900A8ED09 /* ViewController.h */,
+				ABBE9EC81D0E885900A8ED09 /* ViewController.m */,
+				ABBE9ECA1D0E885900A8ED09 /* Main.storyboard */,
+				ABBE9ECD1D0E885900A8ED09 /* Assets.xcassets */,
+				ABBE9ECF1D0E885900A8ED09 /* LaunchScreen.storyboard */,
+				ABBE9ED21D0E885900A8ED09 /* Info.plist */,
+				ABBE9EC11D0E885900A8ED09 /* Supporting Files */,
+			);
+			path = EaseShop;
+			sourceTree = "<group>";
+		};
+		ABBE9EC11D0E885900A8ED09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE9EC21D0E885900A8ED09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABBE9EDA1D0E885A00A8ED09 /* EaseShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE9EDB1D0E885A00A8ED09 /* EaseShopTests.m */,
+				ABBE9EDD1D0E885A00A8ED09 /* Info.plist */,
+			);
+			path = EaseShopTests;
+			sourceTree = "<group>";
+		};
+		ABBE9EE51D0E885A00A8ED09 /* EaseShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE9EE61D0E885A00A8ED09 /* EaseShopUITests.m */,
+				ABBE9EE81D0E885A00A8ED09 /* Info.plist */,
+			);
+			path = EaseShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBE9EBD1D0E885900A8ED09 /* EaseShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBE9EEB1D0E885A00A8ED09 /* Build configuration list for PBXNativeTarget "EaseShop" */;
+			buildPhases = (
+				ABBE9EBA1D0E885900A8ED09 /* Sources */,
+				ABBE9EBB1D0E885900A8ED09 /* Frameworks */,
+				ABBE9EBC1D0E885900A8ED09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseShop;
+			productName = EaseShop;
+			productReference = ABBE9EBE1D0E885900A8ED09 /* EaseShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABBE9ED61D0E885A00A8ED09 /* EaseShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBE9EEE1D0E885A00A8ED09 /* Build configuration list for PBXNativeTarget "EaseShopTests" */;
+			buildPhases = (
+				ABBE9ED31D0E885A00A8ED09 /* Sources */,
+				ABBE9ED41D0E885A00A8ED09 /* Frameworks */,
+				ABBE9ED51D0E885A00A8ED09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBE9ED91D0E885A00A8ED09 /* PBXTargetDependency */,
+			);
+			name = EaseShopTests;
+			productName = EaseShopTests;
+			productReference = ABBE9ED71D0E885A00A8ED09 /* EaseShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABBE9EE11D0E885A00A8ED09 /* EaseShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBE9EF11D0E885A00A8ED09 /* Build configuration list for PBXNativeTarget "EaseShopUITests" */;
+			buildPhases = (
+				ABBE9EDE1D0E885A00A8ED09 /* Sources */,
+				ABBE9EDF1D0E885A00A8ED09 /* Frameworks */,
+				ABBE9EE01D0E885A00A8ED09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBE9EE41D0E885A00A8ED09 /* PBXTargetDependency */,
+			);
+			name = EaseShopUITests;
+			productName = EaseShopUITests;
+			productReference = ABBE9EE21D0E885A00A8ED09 /* EaseShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBE9EB61D0E885900A8ED09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LF;
+				TargetAttributes = {
+					ABBE9EBD1D0E885900A8ED09 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ABBE9ED61D0E885A00A8ED09 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ABBE9EBD1D0E885900A8ED09;
+					};
+					ABBE9EE11D0E885A00A8ED09 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ABBE9EBD1D0E885900A8ED09;
+					};
+				};
+			};
+			buildConfigurationList = ABBE9EB91D0E885900A8ED09 /* Build configuration list for PBXProject "EaseShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABBE9EB51D0E885900A8ED09;
+			productRefGroup = ABBE9EBF1D0E885900A8ED09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBE9EBD1D0E885900A8ED09 /* EaseShop */,
+				ABBE9ED61D0E885A00A8ED09 /* EaseShopTests */,
+				ABBE9EE11D0E885A00A8ED09 /* EaseShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBE9EBC1D0E885900A8ED09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE9ED11D0E885900A8ED09 /* LaunchScreen.storyboard in Resources */,
+				ABBE9ECE1D0E885900A8ED09 /* Assets.xcassets in Resources */,
+				ABBE9ECC1D0E885900A8ED09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE9ED51D0E885A00A8ED09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE9EE01D0E885A00A8ED09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBE9EBA1D0E885900A8ED09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE9EC91D0E885900A8ED09 /* ViewController.m in Sources */,
+				ABBE9EC61D0E885900A8ED09 /* AppDelegate.m in Sources */,
+				ABBE9EC31D0E885900A8ED09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE9ED31D0E885A00A8ED09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE9EDC1D0E885A00A8ED09 /* EaseShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE9EDE1D0E885A00A8ED09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE9EE71D0E885A00A8ED09 /* EaseShopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABBE9ED91D0E885A00A8ED09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBE9EBD1D0E885900A8ED09 /* EaseShop */;
+			targetProxy = ABBE9ED81D0E885A00A8ED09 /* PBXContainerItemProxy */;
+		};
+		ABBE9EE41D0E885A00A8ED09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBE9EBD1D0E885900A8ED09 /* EaseShop */;
+			targetProxy = ABBE9EE31D0E885A00A8ED09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABBE9ECA1D0E885900A8ED09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBE9ECB1D0E885900A8ED09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBE9ECF1D0E885900A8ED09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBE9ED01D0E885900A8ED09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABBE9EE91D0E885A00A8ED09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABBE9EEA1D0E885A00A8ED09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABBE9EEC1D0E885A00A8ED09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EaseShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.EaseShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABBE9EED1D0E885A00A8ED09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EaseShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.EaseShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABBE9EEF1D0E885A00A8ED09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EaseShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.EaseShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EaseShop.app/EaseShop";
+			};
+			name = Debug;
+		};
+		ABBE9EF01D0E885A00A8ED09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EaseShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.EaseShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EaseShop.app/EaseShop";
+			};
+			name = Release;
+		};
+		ABBE9EF21D0E885A00A8ED09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EaseShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.EaseShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EaseShop;
+			};
+			name = Debug;
+		};
+		ABBE9EF31D0E885A00A8ED09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EaseShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.EaseShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EaseShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBE9EB91D0E885900A8ED09 /* Build configuration list for PBXProject "EaseShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBE9EE91D0E885A00A8ED09 /* Debug */,
+				ABBE9EEA1D0E885A00A8ED09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBE9EEB1D0E885A00A8ED09 /* Build configuration list for PBXNativeTarget "EaseShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBE9EEC1D0E885A00A8ED09 /* Debug */,
+				ABBE9EED1D0E885A00A8ED09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBE9EEE1D0E885A00A8ED09 /* Build configuration list for PBXNativeTarget "EaseShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBE9EEF1D0E885A00A8ED09 /* Debug */,
+				ABBE9EF01D0E885A00A8ED09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBE9EF11D0E885A00A8ED09 /* Build configuration list for PBXNativeTarget "EaseShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBE9EF21D0E885A00A8ED09 /* Debug */,
+				ABBE9EF31D0E885A00A8ED09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBE9EB61D0E885900A8ED09 /* Project object */;
+}
