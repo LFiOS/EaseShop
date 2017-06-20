@@ -35,15 +35,18 @@ EaseShop
 
 
 # 提交代码步骤
+<提交代码到远程>
 1.git status                    查看当前分支状态
 
 2.git add .                     添加修改的文件
 
-3.git commit -m "by lixuefei"   提交修改的文件
+3.git commit -m "by lixuefei"   提交修改的文件
 
 4.git push origin lixuefei      提交本地lixuefei分支到远程lixuefei分支
 
 
+
+<合并代码>
 5.git checkout master            切换到master主分支
 
 6.git merge lixuefei             master分支合并lixuefei分支
