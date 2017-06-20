@@ -32,7 +32,7 @@ EaseShop
 
 
 
-#提交代码步骤
+# 提交代码步骤
 1.git status                    查看当前分支状态
 2.git add .                     添加修改的文件
 3.git commit -m "by lixuefei"   提交修改的文件
