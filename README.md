@@ -36,6 +36,7 @@ EaseShop
 
 # 提交代码步骤
 <提交代码到远程>
+
 1.git status                    查看当前分支状态
 
 2.git add .                     添加修改的文件
@@ -47,6 +48,7 @@ EaseShop
 
 
 <合并代码>
+
 5.git checkout master            切换到master主分支
 
 6.git merge lixuefei             master分支合并lixuefei分支
