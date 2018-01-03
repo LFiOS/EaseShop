@@ -59,8 +59,9 @@ EaseShop
 8.git push origin master         提交本地分支到远程分支
 
 
-##<git 其他命令>
+## <git 其他命令>
 git branch -D branch-name               删除本地分支
+
 git branch -r -d origin/branch-name(git push origin :branch-name)     删除远程分支
 
 
