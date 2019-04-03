@@ -71,7 +71,7 @@ git branch -r -d origin/branch-name(git push origin :branch-name)     删除�
 #### 参考地址  https://blog.csdn.net/wenzfcsdn/article/details/80729781
 *.o,*.lo,*.la,*.al,.libs,*.so,*.so.[0-9]*,*.pyc,*.pyo,*.rej,*~,#*#,.#*,.*.swp,.DS_Store,xcuserdata,*.xcuserdatad,.xcuserdatad,.xcuserstate,Pods,*.lock
 
-# Cornerstone 忽略文件、文件夹
+# git中 忽略文件、文件夹
 ## 拷贝以下代码  
 #### 参考地址  https://blog.csdn.net/wenzfcsdn/article/details/82218140
 *.xcuserstate
