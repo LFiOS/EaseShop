@@ -65,7 +65,7 @@ git branch -D branch-name               删除本地分支
 git branch -r -d origin/branch-name(git push origin :branch-name)     删除远程分支
 
 
-
+##
 # Cornerstone 忽略文件、文件夹
 ## 拷贝以下代码  
 #### 参考地址  https://blog.csdn.net/wenzfcsdn/article/details/80729781
