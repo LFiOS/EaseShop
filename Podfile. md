@@ -1,0 +1,84 @@
+platform :ios, '9.0'
+
+target 'DazzlingBell' do
+use_frameworks!
+
+
+#------《Swift》-----
+#pod 'EZSwiftExtensions', '~> 1.8'
+pod 'SnapKit'
+pod 'SwiftyJSON', '~>3.1.0'
+pod 'ObjectMapper'
+#pod 'Heimdall'
+pod 'RealmSwift', '~> 2.10.2'
+pod 'RxSwift'
+#pod 'EZSwiftExtensions', '~> 1.10'
+pod 'LLCycleScrollView', '~> 1.4.6'
+pod 'Kingfisher'
+pod 'PPGetAddressBookSwift'
+pod 'LJContactManager'
+pod 'PagingMenuController'
+pod 'SwiftyStoreKit'
+
+
+# Wechat
+pod 'WechatOpenSDK'
+
+#------《Objective-C》-----
+pod 'AFNetworking', '~>3.1.0'
+pod 'ASIHTTPRequest'
+pod 'SVProgressHUD'
+pod 'MJRefresh'
+pod 'YYKit'
+#pod 'HMSegmentedControl'
+pod 'IQKeyboardManager'
+pod 'TYCyclePagerView'
+pod 'BRPickerView'
+#pod 'BGFMDB'
+
+pod 'SDWebImage', '~> 3.7.6'
+pod 'TZImagePickerController'
+pod 'MJPhotoBrowser'
+pod 'ZLPhotoBrowser'
+pod 'MMPopupView'
+pod 'Masonry'
+pod 'UITextView+Placeholder'
+pod 'CYPasswordView'
+# 权限请求
+pod 'LBXPermission/Base'
+pod 'LBXPermission/Contact'
+pod 'LBXPermission/Location'
+# 高德地图POI
+pod 'AMapSearch-NO-IDFA'
+# 上传视频到阿里云
+pod 'VODUpload'
+
+
+# 《ZFPlayer》
+#pod 'ZFPlayer', '~> 3.1.8'
+#pod 'ZFPlayer/ControlView', '~> 3.1.8'
+#pod 'ZFPlayer/AVPlayer', '~> 3.1.8'
+#pod 'KRVideoPlayer'
+#pod 'YCDownloadSession'
+pod 'YCDownloadSession', '~> 2.0.0', :subspecs => ['Core', 'Mgr']
+
+#pod 'FFmpeg'
+
+# 《moment》
+pod "MLLabel"
+pod "MMWebView"
+pod "UUButton"
+
+# 友盟 SDK  统计平台
+#pod 'UMCCommon'
+#pod 'UMCAnalytics'
+#pod 'UMCSecurityPlugins'
+
+# 打印日志库
+pod 'CocoaLumberjack'
+
+# 自动布局库
+pod 'PureLayout'
+
+end
+
