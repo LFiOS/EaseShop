@@ -44,7 +44,7 @@ EaseShop
 
 2.git add .                     将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录
 
-3.git commit -m "by lixuefei"   将缓存区内容添加到本地仓库
+3.git commit -m "by lixuefei"   将缓存区内容添加到本地仓库
 
 4.git push origin lixuefei      将本地lixuefei分支到远程lixuefei分支
 
