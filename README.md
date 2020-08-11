@@ -8,18 +8,20 @@ EaseShop
 
 2.pod install --verbose --no-repo-update
 
-3.git stauts   查看当前分支的修改状态
+3.git stauts        查看当前分支的修改状态
 
-4.git branch lxf  建立一个分支“lxf”
+4.git branch lxf    建立一个分支“lxf”
 
-5.git branch -a  查看本地和远程的分支list    ，常用的命令 git branch 等等
+5.git branch -a     查看本地和远程的分支list    ，常用的命令 git branch 等等
 
 6.git checkout lxf   切换分支到“lxf”  
 
 7.提交代码分两步：
 
-第一步：git commit -m"modify by gpp"  or  git commit -a -m"mmodify by lxf"  
-第二步：git push origin lxf
+第一步：git add .                       将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录
+第二步：git commit -m"modify by gpp"    将缓存区内容添加到本地仓库
+     ：git commit -a -m"mmodify by lxf"
+第三步：git push origin lxf             将本地版本库推送到远程服务器
     
 8.合并代码   
 
@@ -27,7 +29,7 @@ EaseShop
 
 第二步合并分支到主干：git merge lxf
 
-第三步：git push
+第三步：git push 
 
 
 
@@ -40,11 +42,11 @@ EaseShop
 
 1.git status                    查看当前分支状态
 
-2.git add .                     添加修改的文件
+2.git add .                     将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录
 
-3.git commit -m "by lixuefei"   提交修改的文件
+3.git commit -m "by lixuefei"   将缓存区内容添加到本地仓库
 
-4.git push origin lixuefei      提交本地lixuefei分支到远程lixuefei分支
+4.git push origin lixuefei      将本地lixuefei分支到远程lixuefei分支
 
 
 
