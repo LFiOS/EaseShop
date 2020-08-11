@@ -18,10 +18,10 @@ EaseShop
 
 7.提交代码分两步：
 
-第一步：git add .                       将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录
-第二步：git commit -m"modify by gpp"    将缓存区内容添加到本地仓库
+第一步：git add .            将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录
+第二步：git commit -m"modify by gpp"            将缓存区内容添加到本地仓库
      ：git commit -a -m"mmodify by lxf"
-第三步：git push origin lxf             将本地版本库推送到远程服务器
+第三步：git push origin lxf            将本地版本库推送到远程服务器
     
 8.合并代码   
 
@@ -40,13 +40,13 @@ EaseShop
 
 ## <提交代码到远程>
 
-1.git status                    查看当前分支状态
+1.git status            查看当前分支状态
 
-2.git add .                     将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录
+2.git add .            将当前目录下修改的所有代码从工作区添加到暂存区 . 代表当前目录
 
-3.git commit -m "by lixuefei"   将缓存区内容添加到本地仓库
+3.git commit -m "by lixuefei"            将缓存区内容添加到本地仓库
 
-4.git push origin lixuefei      将本地lixuefei分支到远程lixuefei分支
+4.git push origin lixuefei            将本地lixuefei分支到远程lixuefei分支
 
 
 
