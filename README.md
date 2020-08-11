@@ -8,13 +8,13 @@ EaseShop
 
 2.pod install --verbose --no-repo-update
 
-3.git stauts        查看当前分支的修改状态
+3.git stauts          查看当前分支的修改状态
 
-4.git branch lxf    建立一个分支“lxf”
+4.git branch lxf      建立一个分支“lxf”
 
-5.git branch -a     查看本地和远程的分支list    ，常用的命令 git branch 等等
+5.git branch -a       查看本地和远程的分支list    ，常用的命令 git branch 等等
 
-6.git checkout lxf   切换分支到“lxf”  
+6.git checkout lxf    切换分支到“lxf”  
 
 7.提交代码分两步：
 
